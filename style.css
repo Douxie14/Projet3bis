@@ -47,23 +47,73 @@ td:not([align]), th:not([align]) {
   text-align: left;
 }
 
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("./font/Montserrat-Medium.ttf.woff") format("woff"), url("./font/Montserrat-Medium.ttf.svg#Montserrat-Medium") format("svg"), url("./font/Montserrat-Medium.ttf.eot"), url("./font/Montserrat-Medium.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+/*-------------------Background color------------------------------*/
+/*------------------------------Text color---------------------------*/
+/*------------------------------Font family----------------------------*/
 header, footer {
   background-color: #579C87;
   color: #FDCB46;
+  font-family: Montserrat-Medium;
 }
 
 header {
   text-align: center;
+  font-size: 3em;
+  padding: 20px;
+  font-weight: bold;
 }
 
 footer {
   display: flex;
   justify-content: space-between;
   padding: 10px 20px 10px 20px;
+  font-size: 1.5em;
+  margin-top: 20px;
 }
 
 .container {
   display: flex;
+  flex-wrap: wrap;
+  padding: 20px 5% 20px 5%;
+  justify-content: space-around;
+}
+
+.menu {
+  width: 42.5%;
+  height: 500px;
+  margin: 20px 20px;
+  text-align: center;
+  box-shadow: 1px 1px 12px grey;
+}
+.menu_1 {
+  background-color: #fcdfdb;
+}
+.menu_2 {
+  background-color: #fff5fe;
+}
+.menu_3 {
+  background-color: #f9f9f9;
+}
+.menu_4 {
+  background-color: #fdfffd;
+}
+
+.prochainement {
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  margin: auto;
+  color: #FDCB46;
+  background-color: #579C87;
+  border-radius: 5px;
+  font-size: 1.5em;
 }
 
 /*# sourceMappingURL=style.css.map */
