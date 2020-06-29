@@ -194,12 +194,24 @@ h3 {
   justify-content: center;
   width: 40%;
   margin: auto;
-  margin-bottom: 70px;
+  margin-bottom: 100px;
   color: #FDCB46;
   background-color: #579C87;
   border-radius: 5px;
   font-size: 1.5em;
   font-family: Montserrat-Medium;
+}
+
+.carte_menu1 {
+  font-family: "Comic sans MS";
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+}
+
+.detail_carte {
+  text-align: left;
 }
 
 /*# sourceMappingURL=style.css.map */
