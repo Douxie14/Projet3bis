@@ -77,6 +77,12 @@ td:not([align]), th:not([align]) {
   font-weight: normal;
   font-style: normal;
 }
+a:-webkit-any-link {
+  text-decoration: none;
+  color: initial;
+  width: 42.5%;
+}
+
 header, footer {
   background-color: #579C87;
   color: #FDCB46;
@@ -96,9 +102,13 @@ h1 {
 footer {
   display: flex;
   justify-content: space-between;
-  padding: 10px 20px 10px 20px;
+  padding: 15px 20px 15px 20px;
   font-size: 1.5em;
   margin-top: 20px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
 }
 
 .container {
@@ -109,31 +119,51 @@ footer {
 }
 
 .menu {
-  width: 42.5%;
-  height: 500px;
-  margin: 20px 20px;
+  width: 100%;
+  height: 700px;
+  margin: 40px 0px;
   text-align: center;
   box-shadow: 1px 1px 12px grey;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 1.5em;
 }
 .menu_1 {
   background-color: #fcdfdb;
   font-family: Devonshire-Regular;
 }
+.menu_1--titre {
+  font-size: 2.5em;
+}
 .menu_2 {
   background-color: #fff5fe;
   font-family: Croissant-One;
+}
+.menu_2--titre {
+  background: -webkit-linear-gradient(45deg, #c77412, #905bfd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2em;
 }
 .menu_3 {
   background-color: #f9f9f9;
   font-family: Dancing-Script;
 }
+.menu_3--titre {
+  background: -webkit-linear-gradient(45deg, #0131DF, #0887fb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3em;
+}
 .menu_4 {
   background-color: #fdfffd;
   font-family: Kaushan-Script;
+}
+.menu_4--titre {
+  background: -webkit-linear-gradient(45deg, #3D9339, #BFFF7e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3em;
 }
 
 .menu_1 img {
@@ -142,15 +172,29 @@ footer {
 
 h3 {
   font-family: "Comic sans MS";
-  font-size: 1.5em;
+  font-size: 2.5em;
+  margin-top: 15px;
+}
+
+.menu_2 h3 {
+  color: #c77412;
+}
+
+.menu_3 h3 {
+  color: #0887fb;
+}
+
+.menu_4 h3 {
+  color: #72bf56;
 }
 
 .prochainement {
-  padding: 5px 10px 5px 10px;
+  padding: 10px;
   display: flex;
   justify-content: center;
   width: 40%;
   margin: auto;
+  margin-bottom: 70px;
   color: #FDCB46;
   background-color: #579C87;
   border-radius: 5px;
