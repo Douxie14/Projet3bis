@@ -1,0 +1,14 @@
+header, footer {
+    background-color: $colorbackground-primary;
+    color: $colortext-primary;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+}
