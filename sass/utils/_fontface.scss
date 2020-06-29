@@ -7,3 +7,43 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Devonshire-Regular';
+    src:url('./font/Devonshire-Regular.ttf.woff') format('woff'),
+        url('./font/Devonshire-Regular.ttf.svg#Devonshire-Regular') format('svg'),
+        url('./font/Devonshire-Regular.ttf.eot'),
+        url('./font/Devonshire-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Croissant-One';
+    src:url('./font/Croissant-One.ttf.woff') format('woff'),
+        url('./font/Croissant-One.ttf.svg#Croissant-One') format('svg'),
+        url('./font/Croissant-One.ttf.eot'),
+        url('./font/Croissant-One.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dancing-Script';
+    src:url('./font/Dancing-Script.ttf.woff') format('woff'),
+        url('./font/Dancing-Script.ttf.svg#Dancing-Script') format('svg'),
+        url('./font/Dancing-Script.ttf.eot'),
+        url('./font/Dancing-Script.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kaushan-Script';
+    src:url('./font/Kaushan-Script.ttf.woff') format('woff'),
+        url('./font/Kaushan-Script.ttf.svg#Kaushan-Script') format('svg'),
+        url('./font/Kaushan-Script.ttf.eot'),
+        url('./font/Kaushan-Script.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}

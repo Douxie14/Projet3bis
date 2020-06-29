@@ -11,18 +11,35 @@
     margin: 20px 20px;
     text-align: center;
     box-shadow: 1px 1px 12px grey ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5em;
+    ;
         &_1 {
             background-color: $colorbackground-menu1;
+            font-family: $fontfamily-menu1;
         }
         &_2 {
             background-color: $colorbackground-menu2;
+            font-family: $fontfamily-menu2;
         }
         &_3 { 
             background-color: $colorbackground-menu3;
+            font-family: $fontfamily-menu3;
         }
         &_4 {
             background-color: $colorbackground-menu4;
+            font-family: $fontfamily-menu4;
         }
+}
+.menu_1 img {
+    width: 50px;
+}
+
+h3 {
+    font-family: "Comic sans MS";
+    font-size: 1.5em;    
 }
 
 .prochainement {
@@ -35,4 +52,5 @@
     background-color: $colorbackground-primary;
     border-radius: 5px;
     font-size: 1.5em;
+    font-family: $fontfamily-primary;
 }
