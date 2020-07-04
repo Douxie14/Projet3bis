@@ -47,3 +47,13 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Faux-Omniglot';
+    src:url('Faux-Omniglot.ttf.woff') format('woff'),
+        url('Faux-Omniglot.ttf.svg#Faux-Omniglot') format('svg'),
+        url('Faux-Omniglot.ttf.eot'),
+        url('Faux-Omniglot.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}

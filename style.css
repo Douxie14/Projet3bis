@@ -77,9 +77,15 @@ td:not([align]), th:not([align]) {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Faux-Omniglot";
+  src: url("Faux-Omniglot.ttf.woff") format("woff"), url("Faux-Omniglot.ttf.svg#Faux-Omniglot") format("svg"), url("Faux-Omniglot.ttf.eot"), url("Faux-Omniglot.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 a:-webkit-any-link {
   text-decoration: none;
-  color: initial;
+  color: unset;
   width: 42.5%;
 }
 
@@ -202,16 +208,112 @@ h3 {
   font-family: Montserrat-Medium;
 }
 
-.carte_menu1 {
-  font-family: "Comic sans MS";
+.container_menu1 {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.carte_menu {
   width: 70%;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px 50px 0px;
+}
+
+.nom_menu {
+  margin: 30px;
+  font-size: 2em;
 }
 
 .detail_carte {
   text-align: left;
+}
+
+h4 {
+  font-size: 1.5em;
+  margin: 50px 0px 20px 0px;
+  text-align: center;
+}
+
+p {
+  margin: 10px 0px 10px 0px;
+}
+
+.logo {
+  display: flex;
+  margin: 50px;
+  justify-content: space-around;
+  width: 500px;
+}
+
+.carte_menu1 {
+  font-family: "Comic sans MS";
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.carte_menu1 h4 {
+  font-weight: bold;
+}
+
+.carte_menu2 {
+  font-family: Faux-Omniglot;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.carte_menu2 h4 {
+  font-weight: bold;
+}
+
+.container_menu2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.entree_menu2 {
+  color: #c77412;
+}
+
+.plat_menu2 {
+  color: #905bfd;
+}
+
+.dessert_menu2 {
+  color: #0131DF;
+}
+
+.carte_menu3 {
+  font-family: "Comic sans MS";
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.container_menu3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.carte_menu4 {
+  font-family: "Comic sans MS";
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.container_menu4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
 }
 
 /*# sourceMappingURL=style.css.map */

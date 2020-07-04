@@ -1,0 +1,47 @@
+@include menu;
+
+//---------------------Menu 1-------------------------------//
+.carte_menu1 {
+    @include carte_menu;
+    h4 {
+        font-weight: bold;
+    }
+}
+
+//------------------------Menu 2------------------------------//
+
+.carte_menu2 {
+    @include carte_menu ($fontfamily-carte_menu2);
+    h4 {
+        font-weight: bold;
+    }
+}
+.container_menu2 {
+    @include contenair_menu; 
+}
+.entree_menu2 {
+    color: #c77412;
+}
+.plat_menu2 {
+    color:#905bfd
+}
+.dessert_menu2 {
+    color: #0131DF
+}
+
+//------------------------------------Menu 3------------------------------------//
+
+.carte_menu3 {
+    @include carte_menu;
+}
+.container_menu3 {
+    @include contenair_menu;
+}
+
+//---------------------------------------Menu 4-----------------------------------//
+.carte_menu4 {
+    @include carte_menu;
+}
+.container_menu4 {
+    @include contenair_menu;
+}
