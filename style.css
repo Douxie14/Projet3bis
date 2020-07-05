@@ -223,6 +223,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   padding: 50px 0px 50px 0px;
 }
 
@@ -233,6 +234,18 @@ h3 {
 
 .detail_carte {
   text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.plat {
+  width: 80%;
+}
+
+.prix {
+  text-align: right;
+  width: 20%;
 }
 
 h4 {
@@ -257,6 +270,7 @@ p {
   display: flex;
   flex-direction: column;
   margin: auto;
+  align-items: center;
 }
 .carte_menu1 h4 {
   font-weight: bold;
@@ -267,6 +281,7 @@ p {
   display: flex;
   flex-direction: column;
   margin: auto;
+  align-items: center;
 }
 .carte_menu2 h4 {
   font-weight: bold;
@@ -296,6 +311,7 @@ p {
   display: flex;
   flex-direction: column;
   margin: auto;
+  align-items: center;
 }
 
 .container_menu3 {
@@ -310,6 +326,7 @@ p {
   display: flex;
   flex-direction: column;
   margin: auto;
+  align-items: center;
 }
 
 .container_menu4 {

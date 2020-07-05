@@ -10,7 +10,8 @@
     display: flex;
     flex-direction: column;
     margin: auto;
-}
+    align-items: center;
+    }
 @mixin contenair_menu {
     display: flex;
     flex-direction: column;
@@ -18,7 +19,7 @@
     padding-bottom: 100px;
 }
 
-@mixin menu {
+@mixin menu { 
     .container_menu1 {
         @include contenair_menu;
     }
@@ -27,6 +28,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         padding: 50px 0px 50px 0px;
     }
     .nom_menu {
@@ -35,6 +37,16 @@
     }
     .detail_carte {
         text-align: left;
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+    .plat {
+        width: 80%;
+    }
+    .prix {
+        text-align: right;
+        width: 20%;
     }
     
     h4 {
