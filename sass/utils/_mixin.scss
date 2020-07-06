@@ -11,6 +11,7 @@
     flex-direction: column;
     margin: auto;
     align-items: center;
+    width: 80%;
     }
 @mixin contenair_menu {
     display: flex;
@@ -39,7 +40,7 @@
         text-align: left;
         display: flex;
         flex-wrap: wrap;
-        width: 80%;
+        width: 100%;
     }
     .plat {
         width: 80%;
@@ -60,7 +61,7 @@
     .logo {
         display: flex;
         margin: 50px;
-        justify-content: space-around;
+        justify-content: space-evenly;
         width: 500px;
     }
 }

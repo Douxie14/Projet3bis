@@ -15,6 +15,8 @@
     @include carte_menu ($fontfamily-carte_menu2);
     h4 {
         font-weight: bold;
+        font-size: 1.3em;
+        width: 115%;
     }
 }
 .container_menu2 {
@@ -22,18 +24,24 @@
 }
 .entree_menu2 {
     color: #c77412;
+    width: 100%;
 }
 .plat_menu2 {
-    color:#905bfd
+    color:#a56799;
+    width: 100%;
 }
 .dessert_menu2 {
-    color: #0131DF
+    color: #6e4ccc;
+    width: 100%;
 }
 
 //------------------------------------Menu 3------------------------------------//
 
 .carte_menu3 {
     @include carte_menu;
+    h4 {
+        width: 115%;
+    }
 }
 .container_menu3 {
     @include contenair_menu;
@@ -42,6 +50,10 @@
 //---------------------------------------Menu 4-----------------------------------//
 .carte_menu4 {
     @include carte_menu;
+    h4 {
+        width: 115%;
+        font-size: 1.3em;
+    }
 }
 .container_menu4 {
     @include contenair_menu;

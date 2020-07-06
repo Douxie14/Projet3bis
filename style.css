@@ -120,6 +120,16 @@ footer .contact {
   text-align: right;
 }
 
+h4 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  padding: 10px 0px 10px 0px;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -175,7 +185,7 @@ footer .contact {
   font-size: 3em;
 }
 
-.menu_1 img {
+.logo_menu1 {
   width: 50px;
 }
 
@@ -236,7 +246,7 @@ h3 {
   text-align: left;
   display: flex;
   flex-wrap: wrap;
-  width: 80%;
+  width: 100%;
 }
 
 .plat {
@@ -261,7 +271,7 @@ p {
 .logo {
   display: flex;
   margin: 50px;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 500px;
 }
 
@@ -271,6 +281,7 @@ p {
   flex-direction: column;
   margin: auto;
   align-items: center;
+  width: 80%;
 }
 .carte_menu1 h4 {
   font-weight: bold;
@@ -282,9 +293,12 @@ p {
   flex-direction: column;
   margin: auto;
   align-items: center;
+  width: 80%;
 }
 .carte_menu2 h4 {
   font-weight: bold;
+  font-size: 1.3em;
+  width: 115%;
 }
 
 .container_menu2 {
@@ -296,14 +310,17 @@ p {
 
 .entree_menu2 {
   color: #c77412;
+  width: 100%;
 }
 
 .plat_menu2 {
-  color: #905bfd;
+  color: #a56799;
+  width: 100%;
 }
 
 .dessert_menu2 {
-  color: #0131DF;
+  color: #6e4ccc;
+  width: 100%;
 }
 
 .carte_menu3 {
@@ -312,6 +329,10 @@ p {
   flex-direction: column;
   margin: auto;
   align-items: center;
+  width: 80%;
+}
+.carte_menu3 h4 {
+  width: 115%;
 }
 
 .container_menu3 {
@@ -327,6 +348,11 @@ p {
   flex-direction: column;
   margin: auto;
   align-items: center;
+  width: 80%;
+}
+.carte_menu4 h4 {
+  width: 115%;
+  font-size: 1.3em;
 }
 
 .container_menu4 {
