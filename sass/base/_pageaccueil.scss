@@ -14,7 +14,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    transform: scale(1);
+    :hover {
+        transform: scale(1.5);
+        opacity: .4;
+    }
         &_1 {
             background-color: $colorbackground-menu1;
             font-family: $fontfamily-menu1;
@@ -50,6 +54,7 @@
                 font-size: 3em;
             }
 }
+
 .logo_menu1 {
     width: 50px;
 }
@@ -82,3 +87,4 @@ h3 {
     font-size: 1.5em;
     font-family: $fontfamily-primary;
 }
+

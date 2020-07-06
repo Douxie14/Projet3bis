@@ -146,6 +146,11 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  transform: scale(1);
+}
+.menu :hover {
+  transform: scale(1.5);
+  opacity: 0.4;
 }
 .menu_1 {
   background-color: #fcdfdb;
