@@ -65,3 +65,11 @@
         width: 500px;
     }
 }
+@mixin soulignement ($color) {
+    background: linear-gradient(to top, $color 0%, $color 1px, transparent 2px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 400ms;
+    &:hover {
+        background-size: 100% 100%;}
+}
+    

@@ -14,11 +14,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transform: scale(1);
-    :hover {
-        transform: scale(1.5);
-        opacity: .4;
-    }
         &_1 {
             background-color: $colorbackground-menu1;
             font-family: $fontfamily-menu1;
@@ -87,4 +82,15 @@ h3 {
     font-size: 1.5em;
     font-family: $fontfamily-primary;
 }
-
+.nom {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: scale(1);
+    transition: all 700ms;
+    &:hover  {
+        transform: scale(1.5);
+        opacity: .4; }}
+ 
