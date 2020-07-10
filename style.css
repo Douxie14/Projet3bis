@@ -86,7 +86,6 @@ td:not([align]), th:not([align]) {
 a:-webkit-any-link {
   text-decoration: none;
   color: unset;
-  width: 42.5%;
 }
 
 header, footer {
@@ -135,6 +134,10 @@ p {
   flex-wrap: wrap;
   padding: 20px 5% 20px 5%;
   justify-content: space-around;
+}
+
+.menu_accueil {
+  width: 42.5%;
 }
 
 .menu {
@@ -219,6 +222,7 @@ h3 {
   border-radius: 5px;
   font-size: 1.5em;
   font-family: Montserrat-Medium;
+  text-align: center;
 }
 
 .nom {
@@ -231,7 +235,7 @@ h3 {
   transition: all 700ms;
 }
 .nom:hover {
-  transform: scale(1.5);
+  transform: scale(1.4);
   opacity: 0.4;
 }
 
@@ -276,6 +280,8 @@ h4 {
   font-size: 1.5em;
   margin: 50px 0px 20px 0px;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 p {
@@ -473,6 +479,73 @@ p {
   }
   50% {
     opacity: 0;
+  }
+}
+@media all and (max-width: 1250px) {
+  .trait {
+    width: 30%;
+  }
+}
+@media all and (max-width: 880px) {
+  a:-webkit-any-link {
+    width: 80%;
+  }
+
+  .menu {
+    height: 500px;
+    margin: 20px 0px;
+  }
+
+  .container {
+    padding: 0px;
+  }
+
+  .prochainement {
+    width: 60%;
+    font-size: 1em;
+    text-align: center;
+  }
+
+  footer {
+    font-size: 1em;
+    padding: 10px;
+  }
+
+  .carte_menu {
+    width: 95%;
+  }
+
+  .trait {
+    height: 25%;
+    width: 25%;
+  }
+
+  .detail_carte {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .plat {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  .prix {
+    text-align: center;
+  }
+
+  p {
+    padding: 0px;
+  }
+}
+@media all and (max-width: 550px) {
+  .soulignement {
+    font-size: 70%;
+  }
+
+  .logo {
+    width: 100%;
   }
 }
 
