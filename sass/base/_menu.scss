@@ -1,5 +1,12 @@
 @include menu;
-
+.plat_prix {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.plat_dessert {
+    width: 100%;
+}
 //---------------------Menu 1-------------------------------//
 .carte_menu1 {
     

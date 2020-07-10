@@ -291,6 +291,16 @@ h4 {
   width: 500px;
 }
 
+.plat_prix {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.plat_dessert {
+  width: 100%;
+}
+
 .carte_menu1 {
   font-family: "Comic sans MS";
   display: flex;
